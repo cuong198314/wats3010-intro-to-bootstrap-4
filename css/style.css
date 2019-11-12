@@ -1,1 +1,8 @@
 /* Site Styles Go Here */
+.container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 5px;
+  }
+
+  
