@@ -1,9 +1,5 @@
 /* Site Styles Go Here */
-.container {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 5px;
-  }
+
 
  .footer-flex {
    display:flex;
@@ -40,3 +36,15 @@
     background-color: var(--contact-bg);
     color: var(--icon-color);
   }
+
+  .navbar-brand: {
+    transition: transform .4s;
+  }
+  .navbar-brand:hover {
+    transform: scale(1.1)
+  }
+
+  
+ 
+  
+ 
